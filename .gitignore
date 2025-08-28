@@ -31,23 +31,17 @@ ENV/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Model artifacts (large files)
+# Model artifacts (large binary files)
 *.pb
-*.tflite
 *.h5
 *.hdf5
 *.ckpt
 *.pth
 *.pt
 *.bin
-*.model
-*.vocab
 
 # Data files
 *.csv
-*.json
-*.txt
-*.spm
 
 # Logs
 *.log
